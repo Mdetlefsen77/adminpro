@@ -12,6 +12,7 @@ import { NotFoundComponent } from './404/not-found.component';
 
 
 const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent }
 ]
 
